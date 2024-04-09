@@ -43,23 +43,3 @@ ul {
   width: 50px;
   height: 50px;
 }
-
-/* Stilizare tabletă și device-uri peste 768px */
-@media screen and (min-width: 768px) {
-  .advantages ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 20px;
-  }
-}
-
-/* Stilizare tavletă și device-uri peste 1200px */
-@media screen and (min-width: 1200px) {
-  .advantages ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 80px;
-  }
-}
